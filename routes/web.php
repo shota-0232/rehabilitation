@@ -15,6 +15,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/cource/list', 'CourcesController@cource')->name('cource.list');
+Route::get('/cource/detail', 'CourcesController@detail')->name('cource.detail');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

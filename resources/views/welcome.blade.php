@@ -25,8 +25,10 @@
             <div class="card mb-3" style="max-width: 1110px;">
                 <div class="row no-gutters">
                     <div class="col-xs-1">
-                        <img src="{{ asset('/images/bronze.png') }}" class="rounded mx-auto d-block pt-2 px-sm-2"
-                            alt="...">
+                        <a class="link" href="{{ route('cource.list') }}">
+                            <img src="{{ asset('/images/bronze.png') }}" class="rounded mx-auto d-block pt-2 px-sm-2"
+                                alt="...">
+                        </a>
                     </div>
                     <div class="col-xs-11">
                         <h3 class="card-title pt-3 ">ブロンズコース</h3>
@@ -138,7 +140,11 @@
 
     <section class="py-5">
         <div class="container">
-            <button type="button" class="btn btn-outline-dark btn-lg btn-block">お問い合わせ</button>
+            <div class="row justify-content-center">
+                <div class="col-sm-4">
+                    <button type="button" class="btn btn-outline-dark btn-lg btn-block">お問い合わせ</button>
+                </div>
+            </div>
         </div>
 
     </section>

@@ -142,7 +142,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-sm-4">
-                    <button type="button" class="btn btn-outline-dark btn-lg btn-block">お問い合わせ</button>
+                    <a class="btn btn-outline-dark btn-lg btn-block" href="{{ route('contact.index')}} ">お問い合わせ</a>
                 </div>
             </div>
         </div>

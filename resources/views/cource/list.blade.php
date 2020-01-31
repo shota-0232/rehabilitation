@@ -5,9 +5,9 @@
 @section('content')
 <div class="container">
     <div class="row justify-content-center my-5">
-        <div class="col-md-8">
-            <h2 class="title text-center mb-5">サンプル動画 | Lesson1</h2>
-            <img alt="ロゴ" src="{{ asset('images/lesson1.png')}} " class="img-fluid">
+        <div class="col-md-8 text-center">
+            <h2 class="title mb-md-3">サンプル動画 | Lesson1</h2>
+            <img alt="ロゴ" src="{{ asset('images/lesson1.png')}} " class="img-thumbnail">
         </div>
         <div class="card container py-3 my-3">
             <p class="m-0">
@@ -15,9 +15,9 @@
         </div>
     </div>
 
-    <section class="py-5">
+    <section class="my-5">
         <div class="row justify-content-md-center">
-            <div class="col-md-8">
+            <div class="col-md-8 mb-md-3">
                 <a class="link text-secondary" href="{{ route('cource.detail')}} ">
                     <h3 class="mt-3">1.サンプル動画</h3>
                 </a>
@@ -28,7 +28,7 @@
             </div>
         </div>
         <div class="row justify-content-md-center">
-            <div class="col-md-8">
+            <div class="col-md-8 mb-md-3">
                 <a class="link text-secondary" href="{{ route('cource.detail')}} ">
                     <h3 class="mt-3">2.サンプル動画</h3>
                 </a>
@@ -39,7 +39,7 @@
             </div>
         </div>
         <div class="row justify-content-md-center">
-            <div class="col-md-8">
+            <div class="col-md-8 mb-md-3">
                 <a class="link text-secondary" href="{{ route('cource.detail')}} ">
                     <h3 class="mt-3">3.サンプル動画</h3>
                 </a>
@@ -50,7 +50,7 @@
             </div>
         </div>
         <div class="row justify-content-md-center">
-            <div class="col-md-8">
+            <div class="col-md-8 mb-md-3">
                 <a class="link text-secondary" href="{{ route('cource.detail')}} ">
                     <h3 class="mt-3">4.サンプル動画</h3>
                 </a>
@@ -61,7 +61,7 @@
             </div>
         </div>
         <div class="row justify-content-md-center">
-            <div class="col-md-8">
+            <div class="col-md-8 mb-md-3">
                 <a class="link text-secondary" href="{{ route('cource.detail')}} ">
                     <h3 class="mt-3">5.サンプル動画</h3>
                 </a>
@@ -72,7 +72,7 @@
             </div>
         </div>
         <div class="row justify-content-md-center">
-            <div class="col-md-8">
+            <div class="col-md-8 mb-md-3">
                 <a class="link text-secondary" href="{{ route('cource.detail')}} ">
                     <h3 class="mt-3">6.サンプル動画</h3>
                 </a>
@@ -83,7 +83,7 @@
             </div>
         </div>
         <div class="row justify-content-md-center">
-            <div class="col-md-8">
+            <div class="col-md-8 mb-md-3">
                 <a class="link text-secondary" href="{{ route('cource.detail')}} ">
                     <h3 class="mt-3">7.サンプル動画</h3>
                 </a>
@@ -94,7 +94,7 @@
             </div>
         </div>
         <div class="row justify-content-md-center">
-            <div class="col-md-8">
+            <div class="col-md-8 mb-md-3">
                 <a class="link text-secondary" href="{{ route('cource.detail')}} ">
                     <h3 class="mt-3">8.サンプル動画</h3>
                 </a>

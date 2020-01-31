@@ -99,7 +99,7 @@
 
 
         </div>
-        <div class="col-md-3 mx-auto">
+        <div class="col-lg-3 mx-auto">
             <h3 class="text-center">メニュー</h3>
             <div class="card bg-white p-3">
                 <p class="lead">入会コース：ブロンズ</p>
